@@ -1,7 +1,7 @@
 from copy import deepcopy
 import unittest
 
-from Add.add import add
+from Add.add_2 import add
 
 
 class AddTests(unittest.TestCase):

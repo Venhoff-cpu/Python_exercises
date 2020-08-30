@@ -1,13 +1,13 @@
 from collections import Iterable
-from itertools import chain
 
 
 def deep_flatten(seq):
     """
-    Głębokie spłaszczanie listy. Sprawdzamy czy kolejne elemnty listy są ierowalne i nie są stringiem lub bytem.
-    Jeśli są iterowalne, wywyołujemy ponownie generator deep_flatten.
-    :param seq: sekwencja/lista do spłaszczenia
-    :return: Spłaszczona wynikowa lista
+    Deep flattening the list. We check whether successive elements of the list are iterable and not a string
+    or an entity (wo don't won't to yield single letters).
+    If they are iterable we call the generator deep_flatten again.
+    :param seq: Sequence for flattening
+    :return: Every element of the sequence
     """
     for el in seq:
         if isinstance(el, Iterable) and not isinstance(el, (str, bytes)):

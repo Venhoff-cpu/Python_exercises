@@ -3,7 +3,7 @@ def validate(*args):
     for arg in args:
         if count:
             if count != len(arg):
-                raise ValueError("Given matrices are not the same size.")
+                raise ValueError("Given matrices are not of the same size.")
         count = len(arg)
     return True
 
