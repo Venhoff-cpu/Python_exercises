@@ -28,7 +28,7 @@ def find_empty(board):
 def valid(board, pos, num):
     """
     Returns if the attempted move is valid
-    :param board: 2d list - board of sudoku
+    :param board: 2d list - sudoku board
     :param pos: position on board for param num - tuple (row, col)
     :param num: number to be verified in specified pos
     :return: bool
