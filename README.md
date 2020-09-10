@@ -15,6 +15,8 @@ Repository used for generale practice in writing more Pythonic code.
 - **Tree_traversing** - implementation of finding a specific object on a 'tree'
 - **Upper_count** - function for counting all the upper case letters in a file
 - **Parse_range** - function accepts a string containing ranges of numbers and returns an iterable of those numbers.
+- **Supress** - context menager that suppresses suppress exceptions of a given type i.e. NameError, TypeError.  
+If the given exception type is raised, that exception should be caught and muted in a sense
 - **Other** - non classified exercises 
 ## Status
 This repository will be updated at least ones every week with new exercises.
