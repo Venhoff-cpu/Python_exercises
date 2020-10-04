@@ -6,7 +6,7 @@ def count_upper_case(file):
     """
     Function for counting upper case letters in the text file.
     """
-    with open("text") as text:
+    with open(file, 'r') as text:
         count = sum(char.isupper() for char in text.read())
     return count
 

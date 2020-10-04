@@ -9,7 +9,7 @@ def solution(s):
         if re.search(r"^admin\s*[-|r][-|w][x]", i):
             size = re.search(r"\s{2}[\d]{1,8}\s", i)
             if size:
-                if int(size.group()) < 14680064:
+                if int(size.group()) <= 14680064:
                     my_date = (re.search(r"[\d][\d]\s*[\w]{3}\s*[\d]{4}", i)).group()
                     if not result:
                         result = my_date

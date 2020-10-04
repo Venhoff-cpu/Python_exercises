@@ -10,4 +10,3 @@ def add(*args):
         [sum(values) for values in zip(*rows)]
         for rows in zip(*args)
     ]
-
