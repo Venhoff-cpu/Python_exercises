@@ -21,6 +21,8 @@ with open(args.csv_file, 'wt') as csv_file:
     # Iterate through config dict (ConfigDict is a dict inheriting after collection.OrderedType - order of sections and
     # values will be the same as in original file)
     for name, section in config.items():
+        # That DEFAULT section represents options that are at the top of the file outside of other sections.
+        # Our files don't have options like that, so we're always skipping that section
         if name == "DEFAULT":
             continue
         if args.collapsed:
