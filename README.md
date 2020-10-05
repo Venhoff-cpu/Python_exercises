@@ -17,6 +17,7 @@ Repository used for generale practice in writing more Pythonic code.
 - **Parse_range** - function accepts a string containing ranges of numbers and returns an iterable of those numbers.
 - **Supress** - context menager that suppresses suppress exceptions of a given type i.e. NameError, TypeError.  
 If the given exception type is raised, that exception should be caught and muted in a sense
+- **OrderSet** - class set-like object that maintains insertion order of items.
 - **Other** - non classified exercises 
 ## Status
 This repository will be updated at least ones every week with new exercises.
