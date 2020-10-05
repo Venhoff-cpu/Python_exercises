@@ -1,4 +1,4 @@
-from collections.abc import Sequence, MutableSet, Set
+from collections.abc import Sequence, MutableSet
 
 
 class OrderedSet(Sequence, MutableSet):

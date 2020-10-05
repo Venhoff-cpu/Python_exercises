@@ -18,6 +18,7 @@ Repository used for generale practice in writing more Pythonic code.
 - **Supress** - context menager that suppresses suppress exceptions of a given type i.e. NameError, TypeError.  
 If the given exception type is raised, that exception should be caught and muted in a sense
 - **OrderSet** - class set-like object that maintains insertion order of items.
+- **ini2csv** - code to convert .editorconfig (.ini) into csv file.
 - **Other** - non classified exercises 
 ## Status
 This repository will be updated at least ones every week with new exercises.
