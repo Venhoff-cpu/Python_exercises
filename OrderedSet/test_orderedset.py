@@ -106,8 +106,6 @@ class OrderedSetTests(unittest.TestCase):
         self.assertEqual(numbers, numbers2)
         self.assertFalse(numbers != numbers2)
 
-    # To test the Bonus part of this exercise, comment out the following line
-    @unittest.expectedFailure
     def test_supports_indexing(self):
         string = "Hello world.  This string contains many characters in it."
         characters = OrderedSet(string)

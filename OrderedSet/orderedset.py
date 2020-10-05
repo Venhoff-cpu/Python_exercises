@@ -1,17 +1,26 @@
-from collections.abc import MutableSet, Set
+from collections.abc import Sequence, MutableSet, Set
 
 
-class OrderedSet(MutableSet):
-    def __init__(self, itereable):
+class OrderedSet(Sequence, MutableSet):
+    """Set-like object that maintains insertion order of items.
+    Inheriting after Sequence to get accses to methods such as __reverse__, index, count.
+    Implementation of __iter__ after __getitem__.
+    """
+    def __init__(self, iterable):
         self.items = set()
         self.order = []
-        for item in itereable:
-            if item not in self.items:
-                self.items.add(item)
-                self.order.append(item)
+        # relies on an in-place union (|=) to update the ordered set properly
+        # (this delegates to our add method which maintains insertion order and uniqueness)
+        self |= iterable
 
-    def __iter__(self):
-        return (item for item in self.order)
+        # Not needed after implementing in-place union.
+        # for item in iterable:
+        #     if item not in self.items:
+        #         self.items.add(item)
+        #         self.order.append(item)
+
+    def __getitem__(self, item):
+        return self.order[item]
 
     def __len__(self):
         return len(self.items)
@@ -30,9 +39,7 @@ class OrderedSet(MutableSet):
             self.order.remove(item)
 
     def __eq__(self, other):
-        if not isinstance(other, OrderedSet):
-            return False
-        else:
+        if isinstance(other, type(self)):
             return (
                 len(other) == len(self) and
                 all(x == y for x, y in zip(self, other))
