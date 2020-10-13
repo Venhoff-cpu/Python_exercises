@@ -17,10 +17,14 @@ def range_float():
         yield value
 
 
-if __name__ == "__main__":
+def dec_list():
     getcontext().prec = 2
+    return [i for i in range_float()]
+
+
+if __name__ == "__main__":
     # Lista będzie składac się z wartosci typu decimal z zadana dokładnością
-    my_list = [i for i in range_float()]
+    my_list = dec_list()
     print(my_list)
     print(f'Czy wszytkie elementy listy sa typu deciaml? {all(isinstance(item, Decimal) for item in my_list)}')
 
@@ -28,9 +32,12 @@ if __name__ == "__main__":
 # import numpy as np
 #
 #
-# if __name__ == "__main__":
+# def dec_list():
 #     getcontext().prec = 2
+#     return [Decimal(i) for i in np.arange(2, 6, 0.5)]
+#
+# if __name__ == "__main__":
 #     # Lista będzie składac się z wartosci typu decimal.
-#     my_list = [Decimal(i) for i in np.arange(2, 6, 0.5)]
+#     my_list = dec_list()
 #     print(my_list)
 #     print(f'Czy wszytkie elementy listy sa typu deciaml? {all(isinstance(item, Decimal) for item in my_list)}')
