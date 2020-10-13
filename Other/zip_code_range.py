@@ -29,6 +29,7 @@ def zip_code_range(zip_1, zip_2):
     else:
         return 'Pusty przedział'
 
+    # Zwracamy otwarty przdział pomiędzy podanymi kodami pocztowymi (bez uwzglednienia podanych wartości brzegowych).
     return [f'{str(i // 1000).zfill(2)}-{str(i % 1000).zfill(3)}'
             for i in range(start+1, end)]
 
