@@ -2,7 +2,7 @@
 Repository used for generale practice in writing more Pythonic code.
 
 ## Technology 
-- Python 3.6
+- Python 3.8
 - numpy
 - Regex
 ## Exercises:
@@ -19,6 +19,7 @@ Repository used for generale practice in writing more Pythonic code.
 If the given exception type is raised, that exception should be caught and muted in a sense
 - **OrderSet** - class set-like object that maintains insertion order of items.
 - **ini2csv** - code to convert .editorconfig (.ini) into csv file.
+- **FuzzyStrings** - String based class implementing coamprison operators in non case sensitive way.
 - **Other** - non classified exercises 
 ## Status
 This repository will be updated at least ones every week with new exercises.
