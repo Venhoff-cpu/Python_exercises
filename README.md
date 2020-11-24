@@ -22,6 +22,7 @@ If the given exception type is raised, that exception should be caught and muted
 - **FuzzyStrings** - String based class implementing coamprison operators in non case sensitive way.
 - **meetup_date** - function that returns date of meet up based on the week and weekday.
 - **normalize-sentences** 0 function for normalizing sentences - adding double space after a sentence.
+- **record_calls** - decorator function that records the number of times a function is called.
 - **Other** - non classified exercises 
 ## Status
 This repository will be updated at least ones every week with new exercises.
