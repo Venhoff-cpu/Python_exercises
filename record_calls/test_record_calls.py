@@ -77,7 +77,7 @@ class RecordCallsTests(unittest.TestCase):
         self.assertIn('(a, b=True)', documentation)
 
     # To test the Bonus part of this exercise, comment out the following line
-    @unittest.expectedFailure
+    # @unittest.expectedFailure
     def test_record_arguments(self):
         @record_calls
         def my_func(*args, **kwargs): return args, kwargs
@@ -92,7 +92,7 @@ class RecordCallsTests(unittest.TestCase):
         self.assertEqual(my_func.calls[1].kwargs, {'a': 3})
 
     # To test the Bonus part of this exercise, comment out the following line
-    @unittest.expectedFailure
+    # @unittest.expectedFailure
     def test_record_return_values(self):
         from record_calls import NO_RETURN
         @record_calls
