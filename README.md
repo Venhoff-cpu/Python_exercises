@@ -23,6 +23,9 @@ If the given exception type is raised, that exception should be caught and muted
 - **meetup_date** - function that returns date of meet up based on the week and weekday.
 - **normalize-sentences** 0 function for normalizing sentences - adding double space after a sentence.
 - **record_calls** - decorator function that records the number of times a function is called.
+- **interealve** - function which accepts any number of iterables of any type and return a new iterator with 
+each of the given items "interleaved" (item 0 from iterable 1, then item 0 from iterable 2, then item 1 from iterable 1, 
+and so on).
 - **Other** - non classified exercises 
 ## Status
 This repository will be updated at least ones every week with new exercises.
