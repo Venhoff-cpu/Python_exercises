@@ -26,6 +26,7 @@ If the given exception type is raised, that exception should be caught and muted
 - **interealve** - function which accepts any number of iterables of any type and return a new iterator with 
 each of the given items "interleaved" (item 0 from iterable 1, then item 0 from iterable 2, then item 1 from iterable 1, 
 and so on).
+- **easydict** - dictionary like function with custom functionality.
 - **Other** - non classified exercises 
 ## Status
 This repository will be updated at least ones every week with new exercises.
