@@ -15,19 +15,20 @@ Repository used for generale practice in writing more Pythonic code.
 - **Tree_traversing** - implementation of finding a specific object on a 'tree'
 - **Upper_count** - function for counting all the upper case letters in a file
 - **Parse_range** - function accepts a string containing ranges of numbers and returns an iterable of those numbers.
-- **Supress** - context menager that suppresses suppress exceptions of a given type i.e. NameError, TypeError.  
+- **Supress** - context manager that suppresses suppress exceptions to a given type i.e. NameError, TypeError.  
 If the given exception type is raised, that exception should be caught and muted in a sense
 - **OrderSet** - class set-like object that maintains insertion order of items.
 - **ini2csv** - code to convert .editorconfig (.ini) into csv file.
-- **FuzzyStrings** - String based class implementing coamprison operators in non case sensitive way.
+- **FuzzyStrings** - String based class implementing comparison operators in non-case-sensitive way.
 - **meetup_date** - function that returns date of meet up based on the week and weekday.
 - **normalize-sentences** 0 function for normalizing sentences - adding double space after a sentence.
 - **record_calls** - decorator function that records the number of times a function is called.
 - **interealve** - function which accepts any number of iterables of any type and return a new iterator with 
 each of the given items "interleaved" (item 0 from iterable 1, then item 0 from iterable 2, then item 1 from iterable 1, 
 and so on).
-- **get_earliest** - get earliest date without using date library. Function accepts multiple arguments for date in 
+- **get_earliest** - get the earliest date without using date library. Function accepts multiple arguments for date in 
     format MM/DD/YYYY. 
+- **get_count** - function counting number of words in a sentence... easy  
 - **easydict** - dictionary like function with custom functionality.
 - **Other** - non classified exercises 
 ## Status
