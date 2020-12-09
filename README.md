@@ -26,6 +26,8 @@ If the given exception type is raised, that exception should be caught and muted
 - **interealve** - function which accepts any number of iterables of any type and return a new iterator with 
 each of the given items "interleaved" (item 0 from iterable 1, then item 0 from iterable 2, then item 1 from iterable 1, 
 and so on).
+- **get_earliest** - get earliest date without using date library. Function accepts multiple arguments for date in 
+    format MM/DD/YYYY. 
 - **easydict** - dictionary like function with custom functionality.
 - **Other** - non classified exercises 
 ## Status
