@@ -30,6 +30,7 @@ and so on).
     format MM/DD/YYYY. 
 - **get_count** - function counting number of words in a sentence... easy  
 - **easydict** - dictionary like function with custom functionality.
+  - **semantic_wrap** - function to wrap up paragraph - after "." make a new line.
 - **Other** - non classified exercises 
 ## Status
 This repository will be updated at least ones every week with new exercises.
