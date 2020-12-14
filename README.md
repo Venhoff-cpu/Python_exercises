@@ -5,6 +5,7 @@ Repository used for generale practice in writing more Pythonic code.
 - Python 3.8
 - numpy
 - Regex
+
 ## Exercises:
 - **Add** - function that takes two or more list-of-lists of numbers and returns one list-of-lists with corresponding numbers added together.
 - **Point** - class that represents an object in the 3D grid with attributes x, y, z. This class is comparable, able to be added to and subtracted from, scaled up
@@ -27,10 +28,9 @@ If the given exception type is raised, that exception should be caught and muted
 each of the given items "interleaved" (item 0 from iterable 1, then item 0 from iterable 2, then item 1 from iterable 1, 
 and so on).
 - **get_earliest** - get the earliest date without using date library. Function accepts multiple arguments for date in 
-    format MM/DD/YYYY. 
+    format MM/DD/YYYY.
 - **get_count** - function counting number of words in a sentence... easy  
 - **easydict** - dictionary like function with custom functionality.
-  - **semantic_wrap** - function to wrap up paragraph - after "." make a new line.
+- **semantic_wrap** - function to wrap up paragraph - after "." make a new line.
 - **Other** - non classified exercises 
-## Status
-This repository will be updated at least ones every week with new exercises.
+
