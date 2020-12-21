@@ -32,5 +32,6 @@ and so on).
 - **get_count** - function counting number of words in a sentence... easy  
 - **easydict** - dictionary like function with custom functionality.
 - **semantic_wrap** - function to wrap up paragraph - after "." make a new line.
+- **IsAnagram** - some functions to check if given strings are anagrams.
 - **Other** - non classified exercises 
 
