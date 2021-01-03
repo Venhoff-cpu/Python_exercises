@@ -33,5 +33,7 @@ and so on).
 - **easydict** - dictionary like function with custom functionality.
 - **semantic_wrap** - function to wrap up paragraph - after "." make a new line.
 - **IsAnagram** - some functions to check if given strings are anagrams.
+- **Circle** - simple class for circle.
+- **Grade** - function for calculating GPA and assigning letter grades to percentage grade.
 - **Other** - non classified exercises 
 
