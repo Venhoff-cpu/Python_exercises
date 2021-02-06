@@ -33,7 +33,8 @@ and so on).
 - **easydict** - dictionary like function with custom functionality.
 - **semantic_wrap** - function to wrap up paragraph - after "." make a new line.
 - **IsAnagram** - some functions to check if given strings are anagrams.
-- **Circle** - simple class for circle.
+- **Circle** - simple class for a circle.
 - **Grade** - function for calculating GPA and assigning letter grades to percentage grade.
-- **Other** - non classified exercises 
+- **Dicttools** - func pluck() for getting key values from dictionaries based on a key path i.e. path.to.key 
+- **Other** - non-classified exercises 
 
