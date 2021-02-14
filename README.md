@@ -35,6 +35,7 @@ and so on).
 - **IsAnagram** - some functions to check if given strings are anagrams.
 - **Circle** - simple class for a circle.
 - **Grade** - function for calculating GPA and assigning letter grades to percentage grade.
-- **Dicttools** - func pluck() for getting key values from dictionaries based on a key path i.e. path.to.key 
+- **With_previous** - function that accepts a sequence and returns a new iterable
+  that includes a tuple of each item and the previous item 
 - **Other** - non-classified exercises 
 
